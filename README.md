@@ -51,25 +51,22 @@ AND the output text "Generated logo.svg" is printed in the command line
 
 
 ## Usage Instructions
-Open the cloned repository in any source code editor e.g. Visual Studio Code.
-Open integrated terminal on index.js
-Enter “node index.js” in the command line
-Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
-Once completed a SVG file named “logo.svg” will be created.
-At your discretion, you may rename the “logo.svg” file to the file name of your choice.
-(Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
-(Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible “logo.svg” file.
+1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
+2. Open integrated terminal on index.js
+3. Enter “node index.js” in the command line
+4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
+5. Once completed a SVG file named “logo.svg” will be created.
+6. At your discretion, you may rename the “logo.svg” file to the file name of your choice.
+7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
+8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible “logo.svg” file.
 
 ## Testing
 1. Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
 
 2. The following example test should pass:
-
-- - const shape = new Triangle();
-- - shape.setColor("blue");
-- - expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
-
-You may need to add additional files in the lib folder for handling user input, writing to a file, etc. Writing tests for these additional files is optional.
+- const shape = new Triangle();
+- shape.setColor("blue");
+- expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
 
 #### SVG Resources Used
 - Example SVG

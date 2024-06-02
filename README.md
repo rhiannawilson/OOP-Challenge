@@ -3,9 +3,22 @@
 ## Description
 Our task was to build a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.
 
-## Walkthrough Video File
+## Table of Contents:
+- [Description](#Description)
+- [Video Demo](#Walkthrough_Video_File)
+- [Usage & Technical Details](#Usage)
+- [Usage Instructions](#Usage_Instructions)
+- [Testing](#Testing)
+- [SVG Resources Used](#SVG_Resources_Used)
+- [Credits](#Credits)
+- [License](#License)
+- [Author](#Author)
 
-### User Story
+### Walkthrough_Video_File
+- [Video Demo](#Walkthrough_Video_File)
+
+
+### User_Story
 - AS a freelance web developer
 - I WANT to generate a simple logo for my projects
 - SO THAT I don't have to pay a graphic designer
@@ -50,7 +63,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 > - ds store
 
 
-## Usage Instructions
+## Usage_Instructions
 1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
 2. Open integrated terminal on index.js
 3. Enter “node index.js” in the command line
@@ -68,7 +81,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 - shape.setColor("blue");
 - expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
 
-#### SVG Resources Used
+#### SVG_Resources_Used
 - Example SVG
 - Scalable Vector Graphics (SVG)
 - SVG tutorial
@@ -81,3 +94,6 @@ N/A
 
 ## License
 Please refer to the LICENSE in the repo
+
+## Author
+@Rhianna Wilson

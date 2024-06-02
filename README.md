@@ -1,4 +1,4 @@
-# OOP-Challenge
+# OOP-SVG
 
 ## Description
 Our task was to build a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.
@@ -9,7 +9,8 @@ Our task was to build a Node.js command-line application that takes in user inpu
 - AS a freelance web developer
 - I WANT to generate a simple logo for my projects
 - SO THAT I don't have to pay a graphic designer
-- Acceptance Criteria
+
+### Acceptance Criteria
 - GIVEN a command-line application that accepts user input
 - WHEN I am prompted for text
 - THEN I can enter up to three characters
@@ -28,9 +29,9 @@ AND the output text "Generated logo.svg" is printed in the command line
 
 ## Usage 
 ### Technical Details
-> Jest for running the unit tests 
-> Inquirer for collecting input from the user
-> Node Package Manager
+> - Jest for running the unit tests 
+> - Inquirer for collecting input from the user
+> - Node Package Manager
 
 ### Directory Structure
 .  
@@ -45,9 +46,19 @@ AND the output text "Generated logo.svg" is printed in the command line
 └── README.md         
 
 ### .gitignore 
-> dist
-> ds store
+> - dist
+> - ds store
 
+
+## Usage Instructions
+Open the cloned repository in any source code editor e.g. Visual Studio Code.
+Open integrated terminal on index.js
+Enter “node index.js” in the command line
+Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
+Once completed a SVG file named “logo.svg” will be created.
+At your discretion, you may rename the “logo.svg” file to the file name of your choice.
+(Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
+(Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible “logo.svg” file.
 
 ## Testing
 1. Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.

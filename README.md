@@ -19,11 +19,14 @@ Our task was to build a Node.js command-line application that takes in user inpu
 
 
 ### User_Story
+```
 - AS a freelance web developer
 - I WANT to generate a simple logo for my projects
 - SO THAT I don't have to pay a graphic designer
+```
 
 ### Acceptance Criteria
+```
 - GIVEN a command-line application that accepts user input
 - WHEN I am prompted for text
 - THEN I can enter up to three characters
@@ -38,7 +41,7 @@ Our task was to build a Node.js command-line application that takes in user inpu
 AND the output text "Generated logo.svg" is printed in the command line
 - WHEN I open the `logo.svg` file in a browser
 - THEN I am shown a 300x200 pixel image that matches the criteria I entered
-
+```
 
 ## Usage 
 ### Technical Details
@@ -93,7 +96,8 @@ AND the output text "Generated logo.svg" is printed in the command line
 N/A
 
 ## License
-Please refer to the LICENSE in the repo
+![alt text](https://img.shields.io/badge/License-_MIT-blue.svg)
+
 
 ## Author
 @Rhianna Wilson

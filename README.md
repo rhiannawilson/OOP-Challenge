@@ -75,3 +75,9 @@ AND the output text "Generated logo.svg" is printed in the command line
 - Basic SVG shapes
 - Text in SVG
 - SVG VS Code extension
+
+## Credits
+N/A
+
+## License
+Please refer to the LICENSE in the repo

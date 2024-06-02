@@ -30,22 +30,23 @@ AND the output text "Generated logo.svg" is printed in the command line
 ### Technical Details
 > Jest for running the unit tests 
 > Inquirer for collecting input from the user
-> Node
+> Node Package Manager
 
 ### Directory Structure
 .  
-├── examples/           // Example svg file(s) created with the app
-├── lib/                // Folder for classes or functions
-    ├── shapes.js       // Exports `Triangle`, `Circle`, and `Square` classes
-    ├── shapes.test.js  // Jest tests for shapes
-    └── more...         // Additional files and tests
-├── .gitignore          // Indicates which folders and files Git should ignore
-├── index.js            // Runs the application using imports from lib/
+├── examples/           
+├── lib/                
+    ├── shapes.js       
+    ├── shapes.test.js  
+    └── more...        
+├── .gitignore          
+├── index.js           
 ├── package.json
-└── README.md           // App description, link to video, setup and usage instructions           
+└── README.md         
 
 ### .gitignore 
-Removed: dist and ds store
+> dist
+> ds store
 
 
 ## Testing

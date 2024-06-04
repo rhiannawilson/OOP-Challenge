@@ -84,6 +84,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 - shape.setColor("blue");
 - expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
 
+## Contributions
 #### SVG_Resources_Used
 * [Example SVG](https://static.fullstack-bootcamp.com/fullstack-ground/module-10/circle.svg)
 * [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
@@ -98,6 +99,5 @@ N/A
 ## License
 ![alt text](https://img.shields.io/badge/License-_MIT-blue.svg)
 
-
 ## Author
-@Rhianna Wilson
+@RhiannaWilson

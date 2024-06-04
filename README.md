@@ -1,4 +1,4 @@
-# OOP-SVG
+# SVG-LOGO-WISE
 
 ## Description
 Our task was to build a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.
@@ -15,8 +15,7 @@ Our task was to build a Node.js command-line application that takes in user inpu
 - [Author](#Author)
 
 ### Walkthrough_Video_File
-- [Video Demo](#Walkthrough_Video_File)
-
+- [Video Demo](https://drive.google.com/file/d/15rvslFZB9807FZFkwcwFUZ_WnMEYsVv5/view?usp=sharing)
 
 ### User_Story
 ```
@@ -24,7 +23,6 @@ Our task was to build a Node.js command-line application that takes in user inpu
 - I WANT to generate a simple logo for my projects
 - SO THAT I don't have to pay a graphic designer
 ```
-
 ### Acceptance Criteria
 ```
 - GIVEN a command-line application that accepts user input
@@ -43,55 +41,57 @@ AND the output text "Generated logo.svg" is printed in the command line
 - THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
+## Directory Structure
+```  
+├── Assets/ *repo images*
+├── examples/ 
+    ├── example_circle.svg   
+    ├── example_square.svg
+    ├── example_triangle.svg    
+├── lib/                
+    ├── shapes.js       
+    ├── shapes.test.js  
+├── node_modules           
+├── .gitignore          
+├── index.js    
+├── LICENSE
+├── logo.svg  
+├── package-lock.json
+├── package.json
+└── README.md         
+```
+
 ## Usage 
 ### Technical Details
 > - Jest for running the unit tests 
 > - Inquirer for collecting input from the user
 > - Node Package Manager
 
-### Directory Structure
-.  
-├── examples/           
-├── lib/                
-    ├── shapes.js       
-    ├── shapes.test.js  
-    └── more...        
-├── .gitignore          
-├── index.js           
-├── package.json
-└── README.md         
+### Images
+![index.js vscode preview](./Assets/index.js%20preview.png)
+![SVG Green Circle Logo](./Assets/challenge%20logo.png)
 
 ### .gitignore 
 > - dist
 > - ds store
 
-
 ## Usage_Instructions
-1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
-2. Open integrated terminal on index.js
-3. Enter “node index.js” in the command line
-4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
-5. Once completed a SVG file named “logo.svg” will be created.
-6. At your discretion, you may rename the “logo.svg” file to the file name of your choice.
-7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
-8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible “logo.svg” file.
+1. Open integrated terminal on index.js
+2. Enter “node index.js” in the command line
+3. The user will be presented with npm inquirer questions
+4. State your choices to the options provided
+5. Once completed a SVG file named “logo.svg” will be created
 
-## Testing
-1. Each shape class should be tested for a render() method that returns a string for the corresponding SVG file with the given shape color.
-
-2. The following example test should pass:
-- const shape = new Triangle();
-- shape.setColor("blue");
-- expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
 
 ## Contributions
-#### SVG_Resources_Used
+### SVG_Resources_Used
 * [Example SVG](https://static.fullstack-bootcamp.com/fullstack-ground/module-10/circle.svg)
 * [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
 * [SVG tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 * [Basic SVG shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 * [Text in SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
 * [SVG VS Code extension](https://marketplace.visualstudio.com/items?itemName=jock.svg)
+* Youtube - Thomas OOP Demo
 
 ## Credits
 N/A
